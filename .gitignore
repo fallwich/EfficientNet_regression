@@ -1,0 +1,10 @@
+# Ignore the virtual environment directory
+bin/
+lib/
+pyvenv.cfg
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore other files/directories as needed
