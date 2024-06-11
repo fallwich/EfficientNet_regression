@@ -328,7 +328,7 @@ class CustomEfficientNet(nn.Module):
 
 def plot_results(model_history_eff_net, mean_baseline: float):
     # 학습 에포크 수를 손실 기록의 길이와 맞추기
-    epochs_small_cnn = range(len(model_history_small_cnn['train_loss']))
+    # epochs_small_cnn = range(len(model_history_small_cnn['train_loss']))
     epochs_eff_net = range(len(model_history_eff_net['train_loss']))
 
     sns.set(style="darkgrid")
